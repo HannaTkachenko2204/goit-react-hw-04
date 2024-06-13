@@ -18,7 +18,7 @@ function App() {
 
   return (
     <>
-      <SearchBar onSubmit={onSubmit}/>
+      <SearchBar />
     </>
   )
 }
