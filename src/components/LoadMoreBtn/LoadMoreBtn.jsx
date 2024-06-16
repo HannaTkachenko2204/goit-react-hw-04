@@ -1,7 +1,5 @@
-const LoadMoreBtn = ({onHandleClick}) => {
-  return (
-    <button onClick={onHandleClick}>Load more...</button>
-  )
-}
+const LoadMoreBtn = ({ onHandleClick }) => {
+  return <button onClick={onHandleClick}>Load more...</button>;
+};
 
-export default LoadMoreBtn
+export default LoadMoreBtn;

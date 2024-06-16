@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { toast } from 'react-hot-toast';
+import { toast } from "react-hot-toast";
 
 const SearchBar = ({ onSubmit }) => {
   const [searchQuery, setSearchQuery] = useState("");
@@ -8,17 +8,17 @@ const SearchBar = ({ onSubmit }) => {
   };
   const handleSubmit = (evt) => {
     evt.preventDefault();
-    if(!searchQuery.trim()) {
+    if (!searchQuery.trim()) {
       return toast.error("Can not be empty!");
     }
     onSubmit(searchQuery);
     setSearchQuery("");
-  }
+  };
   return (
     <header>
       <form onSubmit={handleSubmit}>
         <input
-          name="search" 
+          name="search"
           onChange={handleChange}
           value={searchQuery}
           type="text"

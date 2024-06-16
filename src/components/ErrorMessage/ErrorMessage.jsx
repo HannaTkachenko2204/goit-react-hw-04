@@ -1,7 +1,5 @@
 const ErrorMessage = () => {
-  return (
-    <p>The request failed...😭</p>
-  )
-}
+  return <p>The request failed...😭</p>;
+};
 
-export default ErrorMessage
+export default ErrorMessage;
