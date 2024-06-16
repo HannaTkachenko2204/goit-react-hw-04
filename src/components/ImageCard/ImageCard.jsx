@@ -1,8 +1,8 @@
 const ImageCard = ({urls, description}) => {
   return (
-    <div>
+    <li>
       <img src={urls.small} alt={description} />
-    </div>
+    </li>
   );
 };
 

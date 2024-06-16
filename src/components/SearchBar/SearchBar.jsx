@@ -8,7 +8,6 @@ const SearchBar = ({ onSubmit }) => {
   };
   const handleSubmit = (evt) => {
     evt.preventDefault();
-    console.log(searchQuery);
     if(!searchQuery.trim()) {
       return toast.error("Can not be empty!");
     }

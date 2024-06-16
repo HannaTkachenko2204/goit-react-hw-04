@@ -1,6 +1,6 @@
 const ErrorMessage = () => {
   return (
-    <div>ErrorMessage</div>
+    <p>The request failed...😭</p>
   )
 }
 
